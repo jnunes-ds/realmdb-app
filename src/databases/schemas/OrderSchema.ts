@@ -2,7 +2,7 @@ export const OrderSchema = {
   name: "Order",
 
   properties: {
-    _id: "objectId",
+    _id: "string",
     patrimony: "string",
     equipment: "string",
     description: "string",
